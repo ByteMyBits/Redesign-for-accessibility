@@ -55,7 +55,9 @@ nav ul {
 
 /* See README for more */
 
-.hero-image {
+/* Update: solved this issue by using the object-fit property, instead of applying a background-image */
+
+/* .hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,6 +65,13 @@ nav ul {
     alt: "A group of people are sitting around a table working on a problem";
     background-size: cover;
     background-position: center
+} */
+
+.hero-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
 }
 
 .article-item, .aside-item, footer {
