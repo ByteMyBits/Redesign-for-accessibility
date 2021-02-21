@@ -10,7 +10,7 @@ The internet is used for lots of things, one fundamental example being to dissem
 When we talk about website accessibility, what we mean is content that can be understood by as many people as possible. So, how can we do that? We can give meaning to our content by wrapping it in semantic elements. 
 This lets the browser know whether that line of text is a header, a paragraph, or actually a navigation bar, for example. Text-to-speech tools are better able to function when this metadata is included with a website's content.
 
-## What did I do to improve the accessibility
+## What did I do to improve the accessibility?
 
 I have gone through the HTML and replaced the majority of div elements (which tell us nothing about their content) with appropriate semantic elements.
 
